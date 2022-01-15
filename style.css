@@ -1,0 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+     .half-width{
+        
+        width: 582px;
+        height: 270px;
+        padding-left: 120px;
+        margin-top: 145px;
+        margin-right: 133px;
+        
+    }
+    .container{ 
+        display: flex;
+        
+
+    }
+    .image-size{
+        width: 440px;
+        height: 414px;
+        margin-right: 165px;
+    
+    }
+    .top-header{
+        margin-left: 120px;
+        margin-top: 87px;
+
+    }
+    .target-btn{
+        text-decoration: none;
+        background-color: #E02C6D;
+        color: white;
+        border-radius: 25px;
+        padding: 5px 20px;
+        font-weight: 500;
+    }
