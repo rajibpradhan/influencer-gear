@@ -56,6 +56,17 @@ body{
         color: #29365c;
 
     }
+    /* Popular Collection */
+    .fab-icon2{
+        display: flex;
+        align-items: center;
+        
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
         
        
     
