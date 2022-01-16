@@ -12,6 +12,7 @@ body{
     }
     .container{ 
         display: flex;
+        /* flex-direction: column; */
         
 
     }
@@ -28,9 +29,9 @@ body{
     }
     .target-btn{
         text-decoration: none;
-        background-color: #706267;
+        background-color:  #E02C6D;
         color: white;
-        border-radius: 25px;
+        border-radius: 41px;
         padding: 5px 20px;
         font-weight: 500;
     }
@@ -155,6 +156,41 @@ body{
         margin-bottom: 30px;
         border-radius: 5px;
     }
+    .target-btn1{
+        text-decoration: none;
+        background-color:white;
+        color: #721e3d
+
+        border-radius: 25px;
+        padding: 5px 20px;
+        font-weight: 500;
+        
+
+    }
+    /* Media Quries */
+    -----------------
+    /* Mobile Devices */
+    @media only screen and (max-width:688px) {
+        
+        
+        
+        
+         .collections{
+            grid-template-columns: repeat(1,1fr); 
+        
+        .container,.main-footer{
+            flex-direction: column;
+            display: flex;
+            width: 100%;
+        }
+        
+            
+        
+        }
+        
+    }
+        
+    
     
 
 
