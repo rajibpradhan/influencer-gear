@@ -57,15 +57,106 @@ body{
 
     }
     /* Popular Collection */
+    .top-title{
+        text-align: center;
+    }
     .fab-icon2{
         display: flex;
         align-items: center;
+        
         
     }
     .collections{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        /* grid-column-gap: 30px; */
+        
     }
+    .fa-star.filled{
+       color: chocolate;
+    }
+    .flex-1{
+        font-size: 28px;
+        margin-top: 16px;
+        margin-bottom: 6px;
+    }
+    .triped-2{
+        font-size: 24px;
+        /* margin-left: 210px; */
+        /* margin-right: 233px; */
+    }
+     .collection{
+        background-color: #FFFFFF;
+        margin-left: 196px;
+        margin-top: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+
+    }
+    .wordside-p{
+        font-size: 14px;
+    }
+    .collection-1{
+        background-color: #FFFFFF;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+    .collection-2{
+        background-color: #FFFFFF;
+        margin-left: 30px;
+        margin-top: 30px;
+         margin-right: 196px; 
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }.collection-3{
+        background-color: #FFFFFF;
+        margin-left: 196px;
+        margin-top: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }.collection-4{
+        background-color: #FFFFFF;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }.collection-5{
+        background-color: #FFFFFF;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-right: 196px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }.collection-6{
+        background-color: #FFFFFF;
+        margin-left: 196px;
+        margin-top: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }.collection-7{
+        background-color: #FFFFFF;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }.collection-8{
+        background-color: #FFFFFF;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-right: 196px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+    
+
 
         
        
